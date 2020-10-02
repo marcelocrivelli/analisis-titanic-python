@@ -59,7 +59,7 @@ training.head()
 
 testing.head()
 
-#can ignore the testing set for now
+#ignore the testing
 sns.barplot(x="Sex", y="Survived", data=training)
 plt.title("Distribution of Survival based on Gender")
 plt.show()
